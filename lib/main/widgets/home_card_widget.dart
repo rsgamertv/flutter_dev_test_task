@@ -18,7 +18,7 @@ class HomeCardWidget extends StatelessWidget {
         child: Stack(
           children: [
             Align(alignment: Alignment.centerLeft,child: ConstrainedBox(constraints:  BoxConstraints(minHeight: 60,maxWidth: widgetMaxWidth,maxHeight: maxHeight),
-            child: AutoSizeText(titleText,style: TextStyle(fontSize: AdaptiveFontSize.getFontSize(context, 10)),),),),
+            child: SingleChildScrollView(child: AutoSizeText(titleText,style: TextStyle(fontSize: AdaptiveFontSize.getFontSize(context, 10)),overflow: TextOverflow.fade,)),),),
             Positioned(top: 0.0, left: circlePadding,right: 0.0,child: const CircleWidget(),)
           ],
         ),

@@ -1,7 +1,7 @@
 import 'package:sizer/sizer.dart';
 
 final defaultPadding = 3.w;
-final circlePadding = SizerUtil.deviceType == DeviceType.mobile ? 70.w : 80.w;
+final circlePadding = SizerUtil.deviceType == DeviceType.mobile ? 72.w : 80.w;
 final widgetMaxWidth = 70.w;
 const minHeight = 60;
 final maxHeight = 70.h;
