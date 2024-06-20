@@ -17,7 +17,7 @@ class HomeCardWidget extends StatelessWidget {
         margin: EdgeInsets.only(left: defaultPadding),
         child: Stack(
           children: [
-            Align(alignment: Alignment.centerLeft,child: ConstrainedBox(constraints:  BoxConstraints(minHeight: 60,maxWidth: widgetMaxWidth),
+            Align(alignment: Alignment.centerLeft,child: ConstrainedBox(constraints:  BoxConstraints(minHeight: 60,maxWidth: widgetMaxWidth,maxHeight: maxHeight),
             child: AutoSizeText(titleText,style: TextStyle(fontSize: AdaptiveFontSize.getFontSize(context, 10)),),),),
             Positioned(top: 0.0, left: circlePadding,right: 0.0,child: const CircleWidget(),)
           ],
