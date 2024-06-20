@@ -8,3 +8,4 @@ const minHeight = 60;
 final maxHeight = 70.h;
 final circleHeight = SizerUtil.deviceType == DeviceType.mobile ? 100.h : SizerUtil.orientation == Orientation.portrait ? 100.h : 75.h;
 final circleWidth = 40.w;
+const borderRadius = Radius.circular(400);

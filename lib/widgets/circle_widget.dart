@@ -13,7 +13,7 @@ class CircleWidget extends StatelessWidget {
         width: circleWidth,
         decoration: const BoxDecoration(
           color: primary,
-          borderRadius: BorderRadius.only(topLeft: Radius.circular(400),bottomLeft: Radius.circular(400))
+          borderRadius: BorderRadius.only(topLeft: borderRadius,bottomLeft: borderRadius)
         ),
       ),
     );
